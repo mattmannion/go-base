@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "d": "nodemon --config nodemon.dev.json",
+    "t": "nodemon --config nodemon.test.json"
+  }
+}

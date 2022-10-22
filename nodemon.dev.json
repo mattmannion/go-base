@@ -1,0 +1,5 @@
+{
+  "ext": "go",
+  "signal": "SIGTERM",
+  "exec": "cd cmd && go run . || exit 1"
+}
