@@ -1,5 +1,5 @@
 {
   "ext": "go",
   "signal": "SIGTERM",
-  "exec": "cd cmd && go run . || exit 1"
+  "exec": "commands/core/gorun.sh || exit 1"
 }
