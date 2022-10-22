@@ -3,6 +3,7 @@ services:
   redis:
     container_name: redis-goapi-ca-rest
     image: redis:6.2-alpine
+    env_file: .docker.env
     command: redis-server
     restart: on-failure
     ports:
@@ -11,6 +12,7 @@ services:
   postgres:
     container_name: postgres-goapi-ca-rest
     image: postgres
+    env_file: .docker.env
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: Tempest1!
