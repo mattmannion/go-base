@@ -2,6 +2,6 @@
   "scripts": {
     "d": "nodemon --config nodemon.dev.json",
     "t": "nodemon --config nodemon.test.json",
-    "tc": "nodemon --config nodemon.test.coverage.json"
+    "tc": "nodemon --config nodemon.testcoverage.json"
   }
 }
