@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"_cmd/src/thing"
+	"_/cmd/src/thing"
 )
 
 func main() {

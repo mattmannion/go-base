@@ -1,4 +1,4 @@
-module _cmd
+module _
 
 go 1.19
 
