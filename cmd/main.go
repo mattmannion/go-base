@@ -1,8 +1,9 @@
 package main
 
 import (
-	"_cmd/src/thing"
 	"fmt"
+
+	"_cmd/src/thing"
 )
 
 func main() {
